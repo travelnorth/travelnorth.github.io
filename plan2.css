@@ -1,0 +1,246 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2596be;
+    height: 70px;
+    font-size: 18px;
+
+    position: fixed;
+    width: 100%;
+
+    
+}
+
+.logo3 {
+    display: flex;
+    align-items: center;
+}
+
+.logo3 img{
+    height: auto;
+    width: auto;
+    max-height: 80px;
+    max-width: 40px;
+    padding-left: 80px;
+}
+
+.logoMenu {
+
+    display: flex;
+    align-items: center;
+    padding-left: 10px;    
+}
+
+header nav {
+    padding-right: 15px;
+    font-size: 17px;
+}
+
+header a:hover {
+    color: #65cdf3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+#imagenDemostrativa {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url('https://www.buenosaires.gob.ar/sites/gcaba/files/al_avenida_9_dejulio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.colorTravel {
+    color: #65cdf3;
+}
+
+button {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px, 50px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #2596be;
+    cursor: pointer;
+}
+
+
+
+
+#actividades {
+    padding: 200px 12px;
+
+    border: 5px solid;
+}
+
+.plan {
+
+    align-items: center;
+    padding: 160px 12px;
+    background-color: white;
+    background-image: "1_1-jpg";
+
+}
+
+
+.box2 {
+
+
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.polaroid {
+
+    background-color: rgba(255, 255, 255, 0.541);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 10px;
+    text-align: center;
+    margin: 30px;
+    
+
+    
+}
+  
+.img {
+
+    width: 700px;
+    height: 300px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+  div.container {
+    
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+#contactanos {
+    height: 50vh;
+    background-color: rgb(30, 30, 30);
+}
+.contenedorTodo {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+#contactanos .contenedorContactos{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-family: 'Arial';
+    
+}
+
+.textoC {
+    display: flex;
+    justify-items: end;
+    padding-left: 10px;
+}
+
+.contenedorContactos img {
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 40px;
+    padding-right: 10px;
+}
+
+.imagenT img{
+    height: auto;
+    width: auto;
+
+    max-height: 200px;
+    max-width: 350px;
+
+}
+
+.contenedor2 {
+
+    display: flex;  
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    flex-direction: column;
+        
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+
+
+
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.contactos h2 {
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+.contactos img{
+    height: auto;
+    width: auto;
+    max-height: 35px;
+    max-width: 35x;
+}
+
+.logosContactos{
+    display: flex;
+    justify-content: start;
+    padding: 10px 0px;
+}
+
+.logosContactos a{
+    margin: 0;
+    padding-right: 10px;
+}
