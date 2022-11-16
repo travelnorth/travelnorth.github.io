@@ -13,10 +13,11 @@ h1 {
 
 header {
     display: flex;
+    flex-wrap:wrap ;
     justify-content: space-between;
     align-items: center;
     background-color: #2596be;
-    height: 70px;
+    height:  95px;
     font-size: 18px;
 
     position: fixed; 
@@ -26,6 +27,7 @@ header {
 
 .logo3 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -38,8 +40,8 @@ header {
 }
 
 .logoMenu {
-
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding-left: 10px;    
 }
@@ -47,6 +49,9 @@ header {
 header nav {
     padding-right: 15px;
     font-size: 17px;
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 
 header a:hover {
@@ -54,6 +59,7 @@ header a:hover {
 }
 
 a {
+    
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -138,6 +144,7 @@ button {
     
     margin: 20px;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     padding: 20px 20px;
 
